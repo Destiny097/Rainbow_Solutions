@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "name": "learn_tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./styles/styles.css -o ./styles/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "aos": "^3.0.0-beta.6"
+  }
+}
